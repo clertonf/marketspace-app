@@ -166,7 +166,10 @@ export function SignUp() {
 					<Button
 						title="Criar"
 						bgColor="gray.700"
-						// onPress={handleSubmit(handleSignIn)}
+						onPress={() => {}}
+						_pressed={{
+							bgColor: 'gray.500',
+						}}
 						// isLoading={isLoading}
 					/>
 				</Center>
