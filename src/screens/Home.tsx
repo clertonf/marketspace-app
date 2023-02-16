@@ -1,9 +1,14 @@
-import { Center, Text } from 'native-base';
+import { ActiveAds } from '@components/ActiveAds';
+import { HomeHeader } from '@components/HomeHeader';
+import { Center, Text, VStack } from 'native-base';
 
 export function Home() {
 	return (
-		<Center flex={1} alignItems="center" justifyContent="center">
-			<Text>Home</Text>
-		</Center>
+		<VStack flex={1}>
+			<HomeHeader />
+			<VStack px={6} mt={4}>
+				<ActiveAds />
+			</VStack>
+		</VStack>
 	);
 }

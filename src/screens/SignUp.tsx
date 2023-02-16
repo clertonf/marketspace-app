@@ -82,6 +82,7 @@ export function SignUp() {
 								uri: 'https://avatars.githubusercontent.com/u/37512922?v=4',
 							}}
 							alt="Foto do usuário"
+							sendPhotoAvatar
 							size={32}
 						/>
 					)}
