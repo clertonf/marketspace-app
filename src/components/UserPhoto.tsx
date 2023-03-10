@@ -20,7 +20,7 @@ export function UserPhoto({
 				w={size}
 				h={size}
 				rounded="full"
-				borderWidth={3}
+				borderWidth={2}
 				borderColor="blue.300"
 				{...rest}
 			/>
